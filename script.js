@@ -8,7 +8,7 @@ function increaseScore(){
 }
 
 function getNewHit(){
-    hitrn = Math.floor(Math.random() * 10);
+    hitrn = Math.floor(Math.random() * 30);
     document.querySelector("#hitval").textContent = hitrn;
 }
 
@@ -16,7 +16,7 @@ function makeBubble(){
     var clutter = "";
 
 for(i=1; i<=180; i++){
-    var rn = Math.floor(Math.random()*10)
+    var rn = Math.floor(Math.random()*30)
     clutter += `<div class="bubble">${rn}</div>`;
 }
 
